@@ -1,0 +1,1163 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aging Successfully - A Safe Online Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            font-size: 18px;
+        }
+
+        body {
+            line-height: 1.65;
+        }
+
+        * {
+            letter-spacing: 0 !important;
+        }
+
+        section {
+            scroll-margin-top: 104px;
+        }
+
+        p,
+        li,
+        textarea,
+        input,
+        button,
+        a {
+            line-height: 1.55;
+        }
+
+        a,
+        button {
+            min-height: 52px;
+        }
+
+        :focus-visible {
+            outline: 4px solid #F59E0B;
+            outline-offset: 4px;
+            border-radius: 12px;
+        }
+
+        @media (min-width: 1024px) {
+            :root {
+                font-size: 19px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            :root {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#FDFBF7] text-slate-800 text-lg antialiased selection:bg-[#0F4C5C] selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img src="assets/aging-logo-transparent.png" alt="Aging Successfully logo" class="w-12 h-12 object-contain">
+                <span class="text-2xl font-semibold tracking-tight text-[#0F4C5C]">Aging Successfully</span>
+            </div>
+            
+            <div class="hidden lg:flex items-center gap-8 text-slate-600 font-medium">
+                <a href="#home" class="hover:text-[#0F4C5C] transition-colors">Home</a>
+                <a href="#first-visit" class="hover:text-[#0F4C5C] transition-colors">Start Here</a>
+                <a href="#klatches" class="hover:text-[#0F4C5C] transition-colors">Klatches</a>
+                <a href="#tutorials" class="hover:text-[#0F4C5C] transition-colors">Tutorials</a>
+                <a href="#articles" class="hover:text-[#0F4C5C] transition-colors">Articles</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#" class="hidden md:block text-slate-600 font-medium hover:text-[#0F4C5C]">Sign In</a>
+                <a href="#" class="bg-[#0F4C5C] text-white px-6 py-3 rounded-full font-medium hover:bg-[#0a3844] transition-colors text-lg flex items-center gap-2">
+                    Join Free
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-20 pb-24 md:pt-32 md:pb-40 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            
+            <div class="max-w-2xl relative z-10">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-[#0F4C5C] leading-[1.1] mb-8">
+                    Age Boldly. <br>Live Fully. <br>Together.
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-slate-600 leading-relaxed mb-10 max-w-xl">
+                    A safe online community to meet real people, join live Klatches, learn useful things, and stay connected every week.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#" class="bg-[#0F4C5C] text-white px-8 py-5 rounded-full font-medium hover:bg-[#0a3844] transition-colors text-xl text-center flex items-center justify-center gap-2 shadow-lg shadow-[#0F4C5C]/20">
+                        Join the Community — Free
+                    </a>
+                    <a href="#klatches" class="bg-white text-[#0F4C5C] border-2 border-slate-200 px-8 py-5 rounded-full font-medium hover:border-[#0F4C5C] transition-colors text-xl text-center flex items-center justify-center gap-2">
+                        See Upcoming Klatches
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Visual: Photo + UI Overlay -->
+            <div class="relative w-full h-[500px] lg:h-[650px] rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/50">
+                <img src="assets/hero-seniors.jpg" alt="Older adults smiling and chatting together" class="absolute inset-0 w-full h-full object-cover object-center">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0F4C5C]/80 via-transparent to-transparent"></div>
+                
+                <!-- Floating UI Pill to hint at product -->
+                <div class="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur p-6 rounded-2xl shadow-xl flex items-center justify-between border border-white/20">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="video" class="text-green-700 w-7 h-7" stroke-width="1.5"></i>
+                        </div>
+                        <div>
+                            <p class="text-slate-500 font-medium text-base mb-1">Happening Now</p>
+                            <p class="text-xl font-semibold tracking-tight text-slate-900">Morning Coffee &amp; News</p>
+                        </div>
+                    </div>
+                    <div class="hidden sm:flex -space-x-4">
+                        <img class="w-12 h-12 rounded-full border-4 border-white object-cover" src="assets/senior-sarah.jpg" alt="Sarah M.">
+                        <img class="w-12 h-12 rounded-full border-4 border-white object-cover" src="assets/senior-robert.jpg" alt="Robert T.">
+                        <img class="w-12 h-12 rounded-full border-4 border-white object-cover" src="assets/senior-elena.jpg" alt="Elena P.">
+                        <div class="w-12 h-12 rounded-full border-4 border-white bg-slate-100 flex items-center justify-center text-slate-600 font-medium text-base z-10">+8</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Guided Paths -->
+    <section class="py-24 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900 mb-6">Everything you need, made simple.</h2>
+                <p class="text-xl text-slate-600">Choose a path to get started. No complicated menus, just clear ways to connect and learn.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-[#FDFBF7] p-10 rounded-3xl border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-start group cursor-pointer">
+                    <div class="w-16 h-16 bg-[#0F4C5C]/10 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-[#0F4C5C] transition-colors">
+                        <i data-lucide="users" class="w-8 h-8 text-[#0F4C5C] group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-3xl font-semibold tracking-tight text-slate-900 mb-4">Join a Klatch</h3>
+                    <p class="text-xl text-slate-600 mb-8 flex-grow">Small recurring groups with chat and live video. Find a group that shares your interests and meets weekly.</p>
+                    <span class="text-lg font-medium text-[#0F4C5C] flex items-center gap-2 group-hover:gap-3 transition-all">Explore Klatches <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-[#FDFBF7] p-10 rounded-3xl border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-start group cursor-pointer">
+                    <div class="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-amber-400 transition-colors">
+                        <i data-lucide="heart-handshake" class="w-8 h-8 text-amber-800 group-hover:text-amber-950 transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-3xl font-semibold tracking-tight text-slate-900 mb-4">Meet People Like You</h3>
+                    <p class="text-xl text-slate-600 mb-8 flex-grow">Connect around shared humor, health, hobbies, travel, books, and life experience in a safe environment.</p>
+                    <span class="text-lg font-medium text-amber-800 flex items-center gap-2 group-hover:gap-3 transition-all">Find Connections <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-[#FDFBF7] p-10 rounded-3xl border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-start group cursor-pointer">
+                    <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-emerald-600 transition-colors">
+                        <i data-lucide="book-open" class="w-8 h-8 text-emerald-800 group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-3xl font-semibold tracking-tight text-slate-900 mb-4">Learn Practical Tips</h3>
+                    <p class="text-xl text-slate-600 mb-8 flex-grow">Read clear advice on health, avoiding scams, tech help, wellness, and building everyday confidence.</p>
+                    <span class="text-lg font-medium text-emerald-700 flex items-center gap-2 group-hover:gap-3 transition-all">Browse Library <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-[#FDFBF7] p-10 rounded-3xl border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-start group cursor-pointer">
+                    <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-purple-600 transition-colors">
+                        <i data-lucide="calendar-days" class="w-8 h-8 text-purple-800 group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-3xl font-semibold tracking-tight text-slate-900 mb-4">Attend Live Events</h3>
+                    <p class="text-xl text-slate-600 mb-8 flex-grow">Join friendly guided sessions, expert talks, and activities without needing confusing links or separate apps.</p>
+                    <span class="text-lg font-medium text-purple-700 flex items-center gap-2 group-hover:gap-3 transition-all">View Calendar <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- First Visit Flow -->
+    <section id="first-visit" class="py-24 bg-[#FDFBF7] border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-4xl mb-14">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white text-[#0F4C5C] font-semibold text-base mb-6 border border-slate-200">
+                    <i data-lucide="map" class="w-5 h-5" stroke-width="1.5"></i>
+                    Start here
+                </div>
+                <h2 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900 mb-6">Your First Klatch, Step by Step</h2>
+                <p class="text-2xl text-slate-600 leading-relaxed">
+                    The first visit is designed to feel calm and predictable. Each step uses large buttons, plain language, and a clear next action.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-4 gap-6">
+                <div class="bg-white p-8 rounded-2xl border-2 border-slate-200 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-[#0F4C5C] text-white flex items-center justify-center text-2xl font-semibold mb-6">1</div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-4">Pick a group</h3>
+                    <p class="text-xl text-slate-600">Choose a Klatch by interest, time, and comfort level. Every group shows what happens next.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border-2 border-slate-200 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-[#0F4C5C] text-white flex items-center justify-center text-2xl font-semibold mb-6">2</div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-4">Preview the room</h3>
+                    <p class="text-xl text-slate-600">See who is there, when it starts, and the safety note before joining anything live.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border-2 border-slate-200 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-[#0F4C5C] text-white flex items-center justify-center text-2xl font-semibold mb-6">3</div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-4">Press one button</h3>
+                    <p class="text-xl text-slate-600">A single large “Join Live Video” button opens the session. No separate app or confusing link.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border-2 border-slate-200 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-[#0F4C5C] text-white flex items-center justify-center text-2xl font-semibold mb-6">4</div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-4">Follow along</h3>
+                    <p class="text-xl text-slate-600">Captions, chat, host labels, and report buttons stay visible so help is always nearby.</p>
+                </div>
+            </div>
+
+            <div class="mt-10 bg-white rounded-2xl border-2 border-[#0F4C5C]/20 p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div>
+                    <h3 class="text-3xl font-semibold tracking-tight text-slate-900 mb-3">Need a slower walkthrough?</h3>
+                    <p class="text-xl text-slate-600">Open a guided tutorial before joining. It explains one screen at a time.</p>
+                </div>
+                <a href="#tutorials" class="bg-[#0F4C5C] text-white px-8 py-5 rounded-full font-semibold hover:bg-[#0a3844] transition-colors text-xl text-center flex items-center justify-center gap-2 shrink-0">
+                    View Tutorials <i data-lucide="arrow-right" class="w-6 h-6" stroke-width="1.5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Klatches Introduction -->
+    <section id="klatches" class="py-24 bg-[#FDFBF7]">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-16">
+                <div class="max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0F4C5C]/10 text-[#0F4C5C] font-medium text-base mb-6">
+                        The Core Experience
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900 mb-6">Klatches: Your Small Group Around the Table</h2>
+                    <p class="text-xl text-slate-600">
+                        Join a recurring group built around a shared interest. Chat between sessions, return to the same familiar faces, and join live video in one click.
+                    </p>
+                </div>
+                <a href="#" class="hidden md:flex items-center gap-2 text-xl font-medium text-[#0F4C5C] hover:text-slate-900 transition-colors shrink-0">
+                    See All Klatches <i data-lucide="arrow-right" class="w-6 h-6" stroke-width="1.5"></i>
+                </a>
+            </div>
+
+            <!-- Sample Klatches Grid -->
+            <div class="grid lg:grid-cols-3 gap-8">
+                
+                <!-- Klatch 1 -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-base font-medium">
+                            <i data-lucide="shield-check" class="w-4 h-4" stroke-width="1.5"></i> Safe &amp; Moderated
+                        </span>
+                        <span class="text-slate-500 flex items-center gap-1.5 text-base font-medium">
+                            <i data-lucide="users" class="w-5 h-5" stroke-width="1.5"></i> 12 Members
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Monday Morning Gardeners</h3>
+                    <p class="text-lg text-slate-600 mb-8 flex-grow">Share tips, photos of your blooms, and chat about seasonal planting with fellow enthusiasts across the country.</p>
+                    <div class="bg-slate-50 p-5 rounded-2xl mb-8 border border-slate-100">
+                        <p class="text-base text-slate-500 font-medium mb-1">Next Live Session</p>
+                        <p class="text-lg text-slate-900 font-medium flex items-center gap-2">
+                            <i data-lucide="calendar" class="w-5 h-5 text-[#0F4C5C]" stroke-width="1.5"></i> Mon, 10:00 AM EST
+                        </p>
+                    </div>
+                    <button class="w-full bg-white text-[#0F4C5C] border-2 border-[#0F4C5C] py-4 rounded-xl font-medium text-xl hover:bg-[#0F4C5C] hover:text-white transition-colors">
+                        View Klatch Details
+                    </button>
+                </div>
+
+                <!-- Klatch 2 -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-base font-medium">
+                            <i data-lucide="shield-check" class="w-4 h-4" stroke-width="1.5"></i> Safe &amp; Moderated
+                        </span>
+                        <span class="text-slate-500 flex items-center gap-1.5 text-base font-medium">
+                            <i data-lucide="users" class="w-5 h-5" stroke-width="1.5"></i> 8 Members
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Better Sleep Circle</h3>
+                    <p class="text-lg text-slate-600 mb-8 flex-grow">A supportive group discussing habits, routines, and sharing advice for getting a full night's rest.</p>
+                    <div class="bg-slate-50 p-5 rounded-2xl mb-8 border border-slate-100">
+                        <p class="text-base text-slate-500 font-medium mb-1">Next Live Session</p>
+                        <p class="text-lg text-slate-900 font-medium flex items-center gap-2">
+                            <i data-lucide="calendar" class="w-5 h-5 text-[#0F4C5C]" stroke-width="1.5"></i> Wed, 7:00 PM EST
+                        </p>
+                    </div>
+                    <button class="w-full bg-white text-[#0F4C5C] border-2 border-[#0F4C5C] py-4 rounded-xl font-medium text-xl hover:bg-[#0F4C5C] hover:text-white transition-colors">
+                        View Klatch Details
+                    </button>
+                </div>
+
+                <!-- Klatch 3 -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm flex flex-col h-full">
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-base font-medium">
+                            <i data-lucide="shield-check" class="w-4 h-4" stroke-width="1.5"></i> Safe &amp; Moderated
+                        </span>
+                        <span class="text-slate-500 flex items-center gap-1.5 text-base font-medium">
+                            <i data-lucide="users" class="w-5 h-5" stroke-width="1.5"></i> 15 Members
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Humor &amp; Coffee Club</h3>
+                    <p class="text-lg text-slate-600 mb-8 flex-grow">Start your week with lighthearted stories, good jokes, and casual conversation. Bring your own mug!</p>
+                    <div class="bg-slate-50 p-5 rounded-2xl mb-8 border border-slate-100">
+                        <p class="text-base text-slate-500 font-medium mb-1">Next Live Session</p>
+                        <p class="text-lg text-slate-900 font-medium flex items-center gap-2">
+                            <i data-lucide="calendar" class="w-5 h-5 text-[#0F4C5C]" stroke-width="1.5"></i> Tue, 9:00 AM EST
+                        </p>
+                    </div>
+                    <button class="w-full bg-white text-[#0F4C5C] border-2 border-[#0F4C5C] py-4 rounded-xl font-medium text-xl hover:bg-[#0F4C5C] hover:text-white transition-colors">
+                        View Klatch Details
+                    </button>
+                </div>
+            </div>
+
+            <a href="#" class="md:hidden mt-8 w-full flex items-center justify-center gap-2 text-xl font-medium bg-slate-100 px-8 py-5 rounded-full text-slate-900">
+                See All Klatches <i data-lucide="arrow-right" class="w-6 h-6" stroke-width="1.5"></i>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Interactive Console Preview (Crucial Feature) -->
+    <section class="py-24 bg-slate-900 overflow-hidden relative">
+        <!-- Abstract background shapes for depth -->
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-[#0F4C5C] rounded-full blur-[128px] opacity-50"></div>
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-amber-500 rounded-full blur-[128px] opacity-20"></div>
+
+        <div class="max-w-[1400px] mx-auto px-4 md:px-8 relative">
+            <div class="text-center mb-16 max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-6">Built to be simple. No separate apps needed.</h2>
+                <p class="text-xl text-slate-300">Choose a room first, then open a full-page live sandbox with video, captions, and working chat.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 xl:grid-cols-5 gap-5 mb-12">
+                <button data-open-room data-room-name="Monday Morning Gardeners" data-room-topic="Garden tips, seasonal blooms, and friendly morning conversation." class="text-left bg-white p-6 rounded-2xl border-2 border-slate-200 hover:border-amber-300 hover:-translate-y-1 transition-all shadow-xl shadow-black/20">
+                    <div class="w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center mb-5">
+                        <i data-lucide="flower-2" class="w-7 h-7 text-emerald-700" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Morning Gardeners</h3>
+                    <p class="text-lg text-slate-600 mb-5">4 members live now</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Open Room <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </button>
+
+                <button data-open-room data-room-name="Better Sleep Circle" data-room-topic="Simple routines, wind-down habits, and gentle support." class="text-left bg-white p-6 rounded-2xl border-2 border-slate-200 hover:border-amber-300 hover:-translate-y-1 transition-all shadow-xl shadow-black/20">
+                    <div class="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center mb-5">
+                        <i data-lucide="moon" class="w-7 h-7 text-indigo-700" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Better Sleep Circle</h3>
+                    <p class="text-lg text-slate-600 mb-5">8 members live now</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Open Room <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </button>
+
+                <button data-open-room data-room-name="Humor & Coffee Club" data-room-topic="Lighthearted stories, jokes, and casual conversation." class="text-left bg-white p-6 rounded-2xl border-2 border-slate-200 hover:border-amber-300 hover:-translate-y-1 transition-all shadow-xl shadow-black/20">
+                    <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center mb-5">
+                        <i data-lucide="coffee" class="w-7 h-7 text-amber-800" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Humor & Coffee</h3>
+                    <p class="text-lg text-slate-600 mb-5">15 members live now</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Open Room <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </button>
+
+                <button data-open-room data-room-name="Tech Help Desk" data-room-topic="Ask simple technology questions in a patient, friendly room." class="text-left bg-white p-6 rounded-2xl border-2 border-slate-200 hover:border-amber-300 hover:-translate-y-1 transition-all shadow-xl shadow-black/20">
+                    <div class="w-14 h-14 bg-sky-100 rounded-2xl flex items-center justify-center mb-5">
+                        <i data-lucide="monitor-help" class="w-7 h-7 text-sky-700" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Tech Help Desk</h3>
+                    <p class="text-lg text-slate-600 mb-5">6 members live now</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Open Room <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </button>
+
+                <button data-open-room data-room-name="Book Chat" data-room-topic="Share what you are reading and hear recommendations." class="text-left bg-white p-6 rounded-2xl border-2 border-slate-200 hover:border-amber-300 hover:-translate-y-1 transition-all shadow-xl shadow-black/20">
+                    <div class="w-14 h-14 bg-rose-100 rounded-2xl flex items-center justify-center mb-5">
+                        <i data-lucide="book-open" class="w-7 h-7 text-rose-700" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Book Chat</h3>
+                    <p class="text-lg text-slate-600 mb-5">10 members live now</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Open Room <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </button>
+            </div>
+
+            <!-- The Console Mockup -->
+            <div id="live-sandbox" class="hidden fixed inset-0 z-[100] bg-slate-900 overflow-y-auto p-4 md:p-8">
+            <div class="max-w-[1500px] mx-auto bg-white rounded-3xl shadow-2xl shadow-black/50 border border-slate-700 flex flex-col relative">
+                <div class="hidden absolute right-8 top-28 z-30 items-start gap-4">
+                    <div class="relative bg-amber-100 text-amber-950 border-2 border-amber-300 shadow-xl rounded-2xl p-5 w-72">
+                        <p class="text-base font-semibold uppercase mb-2">Try this</p>
+                        <p class="text-xl font-semibold leading-snug">Type a message and watch the host reply.</p>
+                    </div>
+                    <i data-lucide="arrow-down-right" class="w-12 h-12 text-amber-300 mt-12" stroke-width="2.5"></i>
+                </div>
+                <!-- Mac-style top bar -->
+                <div class="bg-slate-100 px-6 py-4 border-b border-slate-200 flex items-center gap-3 rounded-t-3xl">
+                    <div class="w-4 h-4 rounded-full bg-red-400"></div>
+                    <div class="w-4 h-4 rounded-full bg-amber-400"></div>
+                    <div class="w-4 h-4 rounded-full bg-green-400"></div>
+                    <div class="ml-4 text-base font-medium text-slate-500">Aging Successfully Community Room</div>
+                    <button id="open-help-popup" class="ml-auto bg-white border-2 border-slate-300 text-slate-700 px-5 py-2 rounded-xl font-semibold hover:bg-slate-50 transition-colors flex items-center gap-2">
+                        <i data-lucide="circle-help" class="w-5 h-5" stroke-width="1.5"></i> Help
+                    </button>
+                    <button id="open-safety-popup" class="bg-amber-100 border-2 border-amber-300 text-amber-950 px-5 py-2 rounded-xl font-semibold hover:bg-amber-200 transition-colors flex items-center gap-2">
+                        <i data-lucide="shield-alert" class="w-5 h-5" stroke-width="1.5"></i> Safety
+                    </button>
+                    <button id="close-sandbox" class="ml-auto bg-white border-2 border-slate-300 text-slate-700 px-5 py-2 rounded-xl font-semibold hover:bg-slate-50 transition-colors flex items-center gap-2">
+                        <i data-lucide="x" class="w-5 h-5" stroke-width="1.5"></i> Close
+                    </button>
+                </div>
+
+                <!-- Main Layout -->
+                <div class="flex flex-col lg:flex-row h-auto lg:h-[820px]">
+                    
+                    <!-- Left Panel: Info & Actions -->
+                    <div class="w-full lg:w-96 border-b lg:border-b-0 lg:border-r border-slate-200 bg-slate-50 p-6 flex flex-col">
+                        <div class="mb-8">
+                            <h3 id="sandbox-room-name" class="text-2xl font-semibold tracking-tight text-slate-900 mb-2">Monday Morning Gardeners</h3>
+                            <p class="text-base text-slate-500 font-medium flex items-center gap-2">
+                                <i data-lucide="clock" class="w-4 h-4" stroke-width="1.5"></i> Happening Now
+                            </p>
+                            <p id="sandbox-room-topic" class="text-lg text-slate-600 mt-4">Garden tips, seasonal blooms, and friendly morning conversation.</p>
+                        </div>
+
+                        <div class="bg-white border-2 border-slate-200 rounded-2xl p-5 mb-8">
+                            <p class="text-base font-semibold text-slate-500 mb-3 uppercase">Room flow</p>
+                            <ol class="space-y-3 text-lg text-slate-700">
+                                <li class="flex gap-3"><span class="font-semibold text-[#0F4C5C]">1.</span><span>Check who is here.</span></li>
+                                <li class="flex gap-3"><span class="font-semibold text-[#0F4C5C]">2.</span><span>Press the large Join Live Video button.</span></li>
+                                <li class="flex gap-3"><span class="font-semibold text-[#0F4C5C]">3.</span><span>Use chat if you prefer typing.</span></li>
+                                <li class="flex gap-3"><span class="font-semibold text-[#0F4C5C]">4.</span><span>Leave any time.</span></li>
+                            </ol>
+                        </div>
+
+                        <button id="join-video-button" class="w-full bg-[#0F4C5C] text-white py-5 rounded-xl font-medium text-xl hover:bg-[#0a3844] transition-colors flex items-center justify-center gap-3 mb-4 shadow-md">
+                            <i data-lucide="video" class="w-6 h-6" stroke-width="1.5"></i> Join Live Video
+                        </button>
+                        <button class="w-full bg-white text-slate-700 border-2 border-slate-300 py-4 rounded-xl font-medium text-xl hover:bg-slate-50 transition-colors mb-8">
+                            Leave Klatch
+                        </button>
+                        
+                        <div class="mb-8">
+                            <p class="text-base font-semibold text-slate-900 mb-4 uppercase tracking-wider">Members Here (4)</p>
+                            <div class="flex items-center gap-4">
+                                <div class="flex -space-x-3">
+                                    <img class="w-12 h-12 rounded-full border-2 border-white object-cover" src="assets/senior-sarah.jpg" alt="Sarah M.">
+                                    <img class="w-12 h-12 rounded-full border-2 border-white object-cover" src="assets/senior-robert.jpg" alt="Robert T.">
+                                    <img class="w-12 h-12 rounded-full border-2 border-white object-cover" src="assets/senior-elena.jpg" alt="Elena P.">
+                                    <img class="w-12 h-12 rounded-full border-2 border-white object-cover" src="assets/senior-david.jpg" alt="David L.">
+                                </div>
+                                <span class="text-lg font-medium text-slate-700 whitespace-nowrap">4 live now</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Center Panel: Video Grid -->
+                    <div class="flex-1 bg-black p-6 flex flex-col relative">
+                        <div class="absolute top-8 left-8 z-20 bg-black/60 backdrop-blur text-white px-4 py-2 rounded-full text-base font-medium flex items-center gap-2 border border-white/20">
+                            <div class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></div> Live Session
+                        </div>
+                        <div id="room-toast" class="hidden absolute top-8 right-8 z-20 bg-white text-slate-900 px-5 py-3 rounded-2xl shadow-xl border border-white/30 text-lg font-semibold"></div>
+                        
+                        <!-- 2x2 Grid for Video -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1 min-h-0">
+                            <!-- Video Tile 1 -->
+                            <div class="bg-slate-800 rounded-2xl overflow-hidden relative">
+                                <img src="assets/senior-sarah.jpg" class="w-full h-full object-cover" alt="Sarah M. video feed">
+                                <div class="absolute bottom-4 left-4 bg-black/70 backdrop-blur px-4 py-2 rounded-lg text-white font-medium text-lg border border-white/10">
+                                    Sarah M.
+                                </div>
+                            </div>
+                            <!-- Video Tile 2 -->
+                            <div class="bg-slate-800 rounded-2xl overflow-hidden relative">
+                                <img src="assets/senior-robert.jpg" class="w-full h-full object-cover" alt="Robert T. video feed">
+                                <div class="absolute bottom-4 left-4 bg-black/70 backdrop-blur px-4 py-2 rounded-lg text-white font-medium text-lg border border-white/10">
+                                    Robert T.
+                                </div>
+                            </div>
+                            <!-- Video Tile 3 -->
+                            <div class="bg-slate-800 rounded-2xl overflow-hidden relative">
+                                <img src="assets/senior-elena.jpg" class="w-full h-full object-cover" alt="Elena P. video feed">
+                                <div class="absolute bottom-4 left-4 bg-black/70 backdrop-blur px-4 py-2 rounded-lg text-white font-medium text-lg border border-white/10">
+                                    Elena P.
+                                </div>
+                            </div>
+                            <!-- Video Tile 4 -->
+                            <div class="bg-slate-800 rounded-2xl overflow-hidden relative">
+                                <img src="assets/senior-david.jpg" class="w-full h-full object-cover" alt="David L. video feed">
+                                <div class="absolute bottom-4 left-4 bg-black/70 backdrop-blur px-4 py-2 rounded-lg text-white font-medium text-lg border border-white/10">
+                                    David L.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Subtitles Area -->
+                        <div class="mt-4 bg-black/80 backdrop-blur border border-white/10 p-4 rounded-xl text-center">
+                            <p class="text-white text-xl md:text-2xl font-medium tracking-wide">"My tomatoes are finally starting to turn red this week!"</p>
+                            <p class="text-slate-400 text-base mt-1">Sarah M. is speaking...</p>
+                        </div>
+
+                        <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-3">
+                            <button data-room-action="Microphone muted" class="bg-white/10 text-white border border-white/20 px-4 py-3 rounded-xl font-semibold hover:bg-white/20 transition-colors flex items-center justify-center gap-2">
+                                <i data-lucide="mic-off" class="w-5 h-5" stroke-width="1.5"></i> Mute
+                            </button>
+                            <button data-room-action="Camera controls opened" class="bg-white/10 text-white border border-white/20 px-4 py-3 rounded-xl font-semibold hover:bg-white/20 transition-colors flex items-center justify-center gap-2">
+                                <i data-lucide="video" class="w-5 h-5" stroke-width="1.5"></i> Camera
+                            </button>
+                            <button data-room-action="Captions are on" class="bg-white/10 text-white border border-white/20 px-4 py-3 rounded-xl font-semibold hover:bg-white/20 transition-colors flex items-center justify-center gap-2">
+                                <i data-lucide="captions" class="w-5 h-5" stroke-width="1.5"></i> Captions
+                            </button>
+                            <button data-room-action="Hand raised for the host" class="bg-amber-100 text-amber-950 border border-amber-300 px-4 py-3 rounded-xl font-semibold hover:bg-amber-200 transition-colors flex items-center justify-center gap-2">
+                                <i data-lucide="hand" class="w-5 h-5" stroke-width="1.5"></i> Raise Hand
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel: Chat & Safety -->
+                    <div class="w-full lg:w-96 border-t lg:border-t-0 lg:border-l border-slate-200 bg-white flex flex-col h-[560px] lg:h-auto rounded-b-3xl lg:rounded-bl-none">
+                        
+                        <!-- Pinned Message / Safety -->
+                        <div class="p-4 bg-amber-50 border-b border-amber-100 flex items-start gap-3">
+                            <i data-lucide="shield-alert" class="w-6 h-6 text-amber-700 shrink-0 mt-0.5" stroke-width="1.5"></i>
+                            <div>
+                                <p class="text-base font-semibold text-amber-900 mb-1">Moderated for your safety</p>
+                                <p class="text-base text-amber-800">Please do not share passwords or financial information in the chat.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-amber-100 text-amber-950 border-b border-amber-200 flex items-start gap-3">
+                            <i data-lucide="arrow-down-right" class="w-7 h-7 shrink-0 mt-1" stroke-width="2"></i>
+                            <div>
+                                <p class="text-base font-semibold uppercase mb-1">Try the chat</p>
+                                <p class="text-lg font-semibold leading-snug">Type below and the host will send a demo reply.</p>
+                            </div>
+                        </div>
+
+                        <!-- Chat Feed -->
+                        <div id="demo-chat-feed" class="flex-1 overflow-y-auto p-6 space-y-6">
+                            
+                            <!-- Message -->
+                            <div>
+                                <div class="flex items-baseline gap-2 mb-1">
+                                    <span class="font-semibold text-slate-900 text-lg">Robert T.</span>
+                                    <span class="text-sm font-medium text-slate-500">10:02 AM</span>
+                                </div>
+                                <p class="text-slate-700 bg-slate-50 p-4 rounded-2xl rounded-tl-none border border-slate-100 text-lg">
+                                    Good morning everyone! It's beautiful weather here in Ohio today.
+                                </p>
+                            </div>
+
+                            <!-- Message -->
+                            <div>
+                                <div class="flex items-baseline gap-2 mb-1">
+                                    <span class="font-semibold text-[#0F4C5C] text-lg">Elena P.</span>
+                                    <span class="bg-[#0F4C5C]/10 text-[#0F4C5C] text-xs px-2 py-0.5 rounded-full font-medium ml-1">Group Host</span>
+                                    <span class="text-sm font-medium text-slate-500 ml-auto">10:05 AM</span>
+                                </div>
+                                <p class="text-slate-700 bg-slate-50 p-4 rounded-2xl rounded-tl-none border border-slate-100 text-lg">
+                                    So glad you could make it Robert! Sarah is just showing us her garden on the video feed.
+                                </p>
+                            </div>
+                            
+                        </div>
+
+                        <!-- Input Area -->
+                        <div class="p-6 border-t border-slate-200 bg-slate-50 rounded-b-3xl lg:rounded-bl-none">
+                            <div class="flex flex-col gap-3">
+                                <textarea id="demo-chat-input" class="w-full border-2 border-slate-300 rounded-xl p-4 text-lg text-slate-900 focus:outline-none focus:border-[#0F4C5C] resize-none h-24" placeholder="Type a message to the group..."></textarea>
+                                <div class="flex justify-between items-center">
+                                    <button class="text-slate-500 hover:text-red-600 flex items-center gap-2 text-base font-medium transition-colors">
+                                        <i data-lucide="flag" class="w-5 h-5" stroke-width="1.5"></i> Report Concern
+                                    </button>
+                                    <button id="demo-chat-send" class="bg-[#0F4C5C] text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-[#0a3844] transition-colors flex items-center gap-2">
+                                        Send <i data-lucide="send" class="w-5 h-5" stroke-width="1.5"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="prejoin-popup" class="absolute inset-0 z-40 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-2xl w-full p-8">
+                    <div class="flex items-start justify-between gap-4 mb-8">
+                        <div>
+                            <p class="text-base font-semibold uppercase text-[#0F4C5C] mb-2">Before you enter</p>
+                            <h3 class="text-4xl font-semibold tracking-tight text-slate-900">Quick Camera &amp; Sound Check</h3>
+                        </div>
+                        <button data-dismiss-popup="prejoin-popup" class="bg-slate-100 text-slate-700 w-12 h-12 rounded-full flex items-center justify-center hover:bg-slate-200">
+                            <i data-lucide="x" class="w-6 h-6" stroke-width="1.5"></i>
+                        </button>
+                    </div>
+
+                    <div class="grid sm:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-emerald-50 border-2 border-emerald-100 rounded-2xl p-5">
+                            <i data-lucide="video" class="w-8 h-8 text-emerald-700 mb-4" stroke-width="1.5"></i>
+                            <p class="text-xl font-semibold text-slate-900 mb-2">Camera ready</p>
+                            <p class="text-lg text-slate-600">You can turn it off later.</p>
+                        </div>
+                        <div class="bg-sky-50 border-2 border-sky-100 rounded-2xl p-5">
+                            <i data-lucide="mic" class="w-8 h-8 text-sky-700 mb-4" stroke-width="1.5"></i>
+                            <p class="text-xl font-semibold text-slate-900 mb-2">Mic muted</p>
+                            <p class="text-lg text-slate-600">Unmute when ready.</p>
+                        </div>
+                        <div class="bg-amber-50 border-2 border-amber-100 rounded-2xl p-5">
+                            <i data-lucide="captions" class="w-8 h-8 text-amber-700 mb-4" stroke-width="1.5"></i>
+                            <p class="text-xl font-semibold text-slate-900 mb-2">Captions on</p>
+                            <p class="text-lg text-slate-600">Text appears below video.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button data-dismiss-popup="prejoin-popup" class="bg-[#0F4C5C] text-white px-8 py-5 rounded-xl font-semibold hover:bg-[#0a3844] transition-colors text-xl flex items-center justify-center gap-2">
+                            Enter Room <i data-lucide="arrow-right" class="w-6 h-6" stroke-width="1.5"></i>
+                        </button>
+                        <button id="prejoin-open-help" class="bg-white text-[#0F4C5C] border-2 border-[#0F4C5C] px-8 py-5 rounded-xl font-semibold hover:bg-slate-50 transition-colors text-xl flex items-center justify-center gap-2">
+                            Show Me Around
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="safety-popup" class="hidden absolute inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full p-8">
+                    <div class="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="shield-alert" class="w-9 h-9 text-amber-700" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-4xl font-semibold tracking-tight text-slate-900 mb-4">Safety Reminder</h3>
+                    <p class="text-xl text-slate-600 mb-6">Never share passwords, bank details, codes from text messages, or private financial information in chat.</p>
+                    <div class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-5 mb-6">
+                        <p class="text-xl font-semibold text-slate-900 mb-2">Need help?</p>
+                        <p class="text-lg text-slate-600">Use Report Concern. A moderator can review it privately.</p>
+                    </div>
+                    <button data-dismiss-popup="safety-popup" class="w-full bg-[#0F4C5C] text-white px-8 py-5 rounded-xl font-semibold hover:bg-[#0a3844] transition-colors text-xl">
+                        I Understand
+                    </button>
+                </div>
+            </div>
+
+            <div id="help-popup" class="hidden absolute inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full p-8">
+                    <div class="flex items-start justify-between gap-4 mb-8">
+                        <div>
+                            <p class="text-base font-semibold uppercase text-[#0F4C5C] mb-2">Room guide</p>
+                            <h3 class="text-4xl font-semibold tracking-tight text-slate-900">What Everything Does</h3>
+                        </div>
+                        <button data-dismiss-popup="help-popup" class="bg-slate-100 text-slate-700 w-12 h-12 rounded-full flex items-center justify-center hover:bg-slate-200">
+                            <i data-lucide="x" class="w-6 h-6" stroke-width="1.5"></i>
+                        </button>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-5">
+                        <div class="border-2 border-slate-200 rounded-2xl p-5">
+                            <i data-lucide="video" class="w-8 h-8 text-[#0F4C5C] mb-4" stroke-width="1.5"></i>
+                            <h4 class="text-2xl font-semibold text-slate-900 mb-2">Video Area</h4>
+                            <p class="text-lg text-slate-600">See group members and live captions in the middle.</p>
+                        </div>
+                        <div class="border-2 border-slate-200 rounded-2xl p-5">
+                            <i data-lucide="message-square-text" class="w-8 h-8 text-[#0F4C5C] mb-4" stroke-width="1.5"></i>
+                            <h4 class="text-2xl font-semibold text-slate-900 mb-2">Chat</h4>
+                            <p class="text-lg text-slate-600">Type a message if you prefer not to speak.</p>
+                        </div>
+                        <div class="border-2 border-slate-200 rounded-2xl p-5">
+                            <i data-lucide="flag" class="w-8 h-8 text-[#0F4C5C] mb-4" stroke-width="1.5"></i>
+                            <h4 class="text-2xl font-semibold text-slate-900 mb-2">Report Concern</h4>
+                            <p class="text-lg text-slate-600">Privately alerts the moderation team.</p>
+                        </div>
+                        <div class="border-2 border-slate-200 rounded-2xl p-5">
+                            <i data-lucide="door-open" class="w-8 h-8 text-[#0F4C5C] mb-4" stroke-width="1.5"></i>
+                            <h4 class="text-2xl font-semibold text-slate-900 mb-2">Leave Klatch</h4>
+                            <p class="text-lg text-slate-600">Exit whenever you want. No explanation needed.</p>
+                        </div>
+                    </div>
+
+                    <button data-dismiss-popup="help-popup" class="mt-8 w-full bg-[#0F4C5C] text-white px-8 py-5 rounded-xl font-semibold hover:bg-[#0a3844] transition-colors text-xl">
+                        Back to Room
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials -->
+    <section id="tutorials" class="py-24 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row justify-between gap-10 mb-14">
+                <div class="max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0F4C5C]/10 text-[#0F4C5C] font-semibold text-base mb-6">
+                        <i data-lucide="graduation-cap" class="w-5 h-5" stroke-width="1.5"></i>
+                        Guided tutorials
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900 mb-6">Practice Before You Join</h2>
+                    <p class="text-2xl text-slate-600 leading-relaxed">
+                        Short tutorials teach the important actions in the same order people need them. Each one can be repeated any time.
+                    </p>
+                </div>
+
+                <div class="bg-[#FDFBF7] border-2 border-slate-200 rounded-2xl p-8 lg:w-[360px]">
+                    <p class="text-base font-semibold uppercase text-slate-500 mb-3">Recommended first</p>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-4">Joining your first live video</h3>
+                    <a href="#" class="w-full bg-[#0F4C5C] text-white px-6 py-4 rounded-xl font-semibold hover:bg-[#0a3844] transition-colors text-xl flex items-center justify-center gap-2">
+                        Start Tutorial <i data-lucide="play" class="w-6 h-6" stroke-width="1.5"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+                <a href="#" class="bg-[#FDFBF7] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#0F4C5C] transition-colors group">
+                    <div class="w-16 h-16 bg-white rounded-2xl border border-slate-200 flex items-center justify-center mb-6 group-hover:bg-[#0F4C5C] transition-colors">
+                        <i data-lucide="mouse-pointer-click" class="w-8 h-8 text-[#0F4C5C] group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">How to Join</h3>
+                    <p class="text-xl text-slate-600 mb-6">A slow, clear walkthrough from choosing a group to entering the live room.</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Begin <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </a>
+
+                <a href="#" class="bg-[#FDFBF7] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#0F4C5C] transition-colors group">
+                    <div class="w-16 h-16 bg-white rounded-2xl border border-slate-200 flex items-center justify-center mb-6 group-hover:bg-[#0F4C5C] transition-colors">
+                        <i data-lucide="message-square-text" class="w-8 h-8 text-[#0F4C5C] group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Using Chat</h3>
+                    <p class="text-xl text-slate-600 mb-6">Learn how to read messages, send a reply, and tell who the host is.</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Begin <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </a>
+
+                <a href="#" class="bg-[#FDFBF7] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#0F4C5C] transition-colors group">
+                    <div class="w-16 h-16 bg-white rounded-2xl border border-slate-200 flex items-center justify-center mb-6 group-hover:bg-[#0F4C5C] transition-colors">
+                        <i data-lucide="shield-alert" class="w-8 h-8 text-[#0F4C5C] group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Staying Safe</h3>
+                    <p class="text-xl text-slate-600 mb-6">Practice reporting a concern and spotting unsafe requests before they happen.</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Begin <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </a>
+
+                <a href="#" class="bg-[#FDFBF7] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#0F4C5C] transition-colors group">
+                    <div class="w-16 h-16 bg-white rounded-2xl border border-slate-200 flex items-center justify-center mb-6 group-hover:bg-[#0F4C5C] transition-colors">
+                        <i data-lucide="volume-2" class="w-8 h-8 text-[#0F4C5C] group-hover:text-white transition-colors" stroke-width="1.5"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3">Audio &amp; Captions</h3>
+                    <p class="text-xl text-slate-600 mb-6">Set up sound, captions, and camera options before the session starts.</p>
+                    <span class="text-xl font-semibold text-[#0F4C5C] flex items-center gap-2">Begin <i data-lucide="arrow-right" class="w-5 h-5" stroke-width="1.5"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety + Trust Section -->
+    <section class="py-24 bg-white border-y border-slate-200">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            
+            <div class="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-8">
+                <i data-lucide="shield-check" class="text-emerald-700 w-10 h-10" stroke-width="1.5"></i>
+            </div>
+            
+            <h2 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900 mb-8">Built for Safety, Not Just Socializing</h2>
+            
+            <p class="text-2xl text-slate-600 mb-16 leading-relaxed">
+                We watch for scams, suspicious messages, and pressure to move conversations off-platform. You are never alone here.
+            </p>
+
+            <div class="grid sm:grid-cols-2 gap-x-12 gap-y-8 text-left">
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle-2" class="w-8 h-8 text-emerald-600 shrink-0" stroke-width="1.5"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold text-slate-900 mb-2">Verified Members Only</h4>
+                        <p class="text-lg text-slate-600">No anonymous public access. Everyone here is a real, verified person.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle-2" class="w-8 h-8 text-emerald-600 shrink-0" stroke-width="1.5"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold text-slate-900 mb-2">Active Moderation</h4>
+                        <p class="text-lg text-slate-600">Technology and human review work together to block scams and abuse instantly.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle-2" class="w-8 h-8 text-emerald-600 shrink-0" stroke-width="1.5"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold text-slate-900 mb-2">Easy Reporting</h4>
+                        <p class="text-lg text-slate-600">See something weird? One click reports it to our team to handle privately.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle-2" class="w-8 h-8 text-emerald-600 shrink-0" stroke-width="1.5"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold text-slate-900 mb-2">Privacy Protected</h4>
+                        <p class="text-lg text-slate-600">We never sell your data, email, or personal information to third parties.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Emotional / Why This Exists -->
+    <section class="py-32 bg-stone-100 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-6 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-900 mb-10 max-w-4xl mx-auto leading-tight">
+                Retirement Should Not Feel Like Disappearing.
+            </h2>
+            <p class="text-2xl text-slate-700 leading-relaxed mb-12 max-w-3xl mx-auto">
+                Many adults over 60 want connection, purpose, laughter, practical help, and real conversation. Aging Successfully brings those things into one safe, easy-to-use place where you are valued.
+            </p>
+            <a href="#" class="inline-flex bg-[#0F4C5C] text-white px-10 py-5 rounded-full font-medium hover:bg-[#0a3844] transition-colors text-2xl shadow-xl shadow-[#0F4C5C]/20 items-center gap-3">
+                Join Free Today <i data-lucide="arrow-right" class="w-6 h-6" stroke-width="1.5"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Social Proof / Members -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold tracking-tight text-slate-900 mb-4">Meet People Like You</h2>
+                <p class="text-xl text-slate-600">Real stories from our community members.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Member 1 -->
+                <div class="bg-[#FDFBF7] p-8 rounded-3xl border border-slate-200 flex flex-col">
+                    <i data-lucide="quote" class="w-10 h-10 text-amber-300 mb-6" stroke-width="1.5"></i>
+                    <p class="text-xl text-slate-700 italic mb-8 flex-grow">"I joined not knowing what to expect. Three months later I have friends I talk to every week and I'm sleeping better than I have in years. It keeps my mind engaged."</p>
+                    <div class="flex items-center gap-4">
+                        <img class="w-16 h-16 rounded-full object-cover" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;fit=crop&amp;q=80&amp;w=150" alt="Barbara H.">
+                        <div>
+                            <p class="font-semibold text-slate-900 text-lg">Barbara H.</p>
+                            <p class="text-base text-slate-500 font-medium">Joined Gardening Klatch</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 2 -->
+                <div class="bg-[#FDFBF7] p-8 rounded-3xl border border-slate-200 flex flex-col">
+                    <i data-lucide="quote" class="w-10 h-10 text-amber-300 mb-6" stroke-width="1.5"></i>
+                    <p class="text-xl text-slate-700 italic mb-8 flex-grow">"My kids are busy and I don't want to bother them. Finding this community gave me a place to share stories and get help with small tech issues without feeling silly."</p>
+                    <div class="flex items-center gap-4">
+                        <img class="w-16 h-16 rounded-full object-cover" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&amp;fit=crop&amp;q=80&amp;w=150" alt="David L.">
+                        <div>
+                            <p class="font-semibold text-slate-900 text-lg">David L.</p>
+                            <p class="text-base text-slate-500 font-medium">Joined Tech Help Group</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 3 -->
+                <div class="bg-[#FDFBF7] p-8 rounded-3xl border border-slate-200 flex flex-col">
+                    <i data-lucide="quote" class="w-10 h-10 text-amber-300 mb-6" stroke-width="1.5"></i>
+                    <p class="text-xl text-slate-700 italic mb-8 flex-grow">"The layout is so easy to read. I don't have to squint or search for buttons. The live sessions are the highlight of my Tuesday mornings."</p>
+                    <div class="flex items-center gap-4">
+                        <img class="w-16 h-16 rounded-full object-cover" src="https://images.unsplash.com/photo-1598550880863-4e8aa3d0edb4?auto=format&amp;fit=crop&amp;q=80&amp;w=150" alt="Margaret S.">
+                        <div>
+                            <p class="font-semibold text-slate-900 text-lg">Margaret S.</p>
+                            <p class="text-base text-slate-500 font-medium">Joined Book Club</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles (Moved Lower) -->
+    <section id="articles" class="py-24 bg-[#FDFBF7] border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-4xl font-semibold tracking-tight text-slate-900 mb-4">Helpful Reads When You Need Them</h2>
+                    <p class="text-xl text-slate-600">Practical advice supporting our community.</p>
+                </div>
+                <a href="#" class="hidden md:flex items-center gap-2 text-xl font-medium text-[#0F4C5C] hover:text-slate-900 transition-colors">
+                    View Library <i data-lucide="arrow-right" class="w-6 h-6" stroke-width="1.5"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <a href="#" class="group block">
+                    <div class="rounded-3xl overflow-hidden mb-6 relative">
+                        <img src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?auto=format&amp;fit=crop&amp;q=80&amp;w=600" alt="Reading" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-base font-medium text-slate-700">Health &amp; Wellness</div>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3 group-hover:text-[#0F4C5C] transition-colors">Simple habits that protect your energy and independence</h3>
+                    <p class="text-lg text-slate-600 font-medium flex items-center gap-2">Read Article <i data-lucide="arrow-right" class="w-4 h-4" stroke-width="1.5"></i></p>
+                </a>
+                <!-- Article 2 -->
+                <a href="#" class="group block">
+                    <div class="rounded-3xl overflow-hidden mb-6 relative">
+                        <img src="https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?auto=format&amp;fit=crop&amp;q=80&amp;w=600" alt="Technology" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-base font-medium text-slate-700">Tech Help</div>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3 group-hover:text-[#0F4C5C] transition-colors">How to spot common online scams before you click</h3>
+                    <p class="text-lg text-slate-600 font-medium flex items-center gap-2">Read Article <i data-lucide="arrow-right" class="w-4 h-4" stroke-width="1.5"></i></p>
+                </a>
+                <!-- Article 3 -->
+                <a href="#" class="group block">
+                    <div class="rounded-3xl overflow-hidden mb-6 relative">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;q=80&amp;w=600" alt="Outdoors" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-base font-medium text-slate-700">Grief &amp; Resilience</div>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight text-slate-900 mb-3 group-hover:text-[#0F4C5C] transition-colors">Navigating transitions: Finding your footing again</h3>
+                    <p class="text-lg text-slate-600 font-medium flex items-center gap-2">Read Article <i data-lucide="arrow-right" class="w-4 h-4" stroke-width="1.5"></i></p>
+                </a>
+            </div>
+            
+            <a href="#" class="md:hidden mt-8 w-full flex items-center justify-center gap-2 text-xl font-medium bg-white border border-slate-200 px-8 py-5 rounded-full text-slate-900">
+                View All Articles
+            </a>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="bg-[#0F4C5C] py-32 text-center px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-white mb-8">
+                Your People Are Already Here.
+            </h2>
+            <p class="text-2xl text-teal-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+                Join a safe, friendly community for adults 60+ and find your first Klatch this week. It takes less than 2 minutes.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#" class="bg-white text-[#0F4C5C] px-10 py-5 rounded-full font-semibold text-xl hover:bg-teal-50 transition-colors shadow-xl">
+                    Join Aging Successfully — Free
+                </a>
+                <a href="#klatches" class="bg-transparent text-white border-2 border-teal-600 px-10 py-5 rounded-full font-medium text-xl hover:bg-teal-800/50 transition-colors">
+                    Browse Klatches
+                </a>
+            </div>
+            <p class="text-teal-200 text-base font-medium mt-8">No credit card required. No catch.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+            <div class="col-span-2">
+                <div class="flex items-center gap-2 mb-6">
+                    <img src="assets/aging-logo-transparent.png" alt="Aging Successfully logo" class="w-12 h-12 object-contain">
+                    <span class="text-2xl font-semibold tracking-tight text-white">Aging Successfully</span>
+                </div>
+                <p class="text-lg max-w-md mb-8">A free community for adults 60+. Built with heart, designed for simplicity, and moderated for safety.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 transition-colors text-white">
+                        <i data-lucide="facebook" class="w-5 h-5" stroke-width="1.5"></i>
+                    </a>
+                    <a href="#" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 transition-colors text-white">
+                        <i data-lucide="mail" class="w-5 h-5" stroke-width="1.5"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="text-white text-xl font-semibold tracking-tight mb-6">About Us</h4>
+                <ul class="space-y-4 text-lg">
+                    <li><a href="#" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Our Communities</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Safety Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Contact Support</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white text-xl font-semibold tracking-tight mb-6">Quick Links</h4>
+                <ul class="space-y-4 text-lg">
+                    <li><a href="#" class="hover:text-white transition-colors">Browse Klatches</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Live Events Calendar</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Learning Library</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-800 text-center text-base font-medium flex flex-col md:flex-row justify-between items-center gap-4">
+            <p>© 2026 AgingSuccessfully. All Rights Reserved.</p>
+            <div class="flex items-center gap-6">
+                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const demoChatFeed = document.getElementById('demo-chat-feed');
+        const demoChatInput = document.getElementById('demo-chat-input');
+        const demoChatSend = document.getElementById('demo-chat-send');
+        const liveSandbox = document.getElementById('live-sandbox');
+        const closeSandbox = document.getElementById('close-sandbox');
+        const sandboxRoomName = document.getElementById('sandbox-room-name');
+        const sandboxRoomTopic = document.getElementById('sandbox-room-topic');
+        const prejoinPopup = document.getElementById('prejoin-popup');
+        const safetyPopup = document.getElementById('safety-popup');
+        const helpPopup = document.getElementById('help-popup');
+        const openSafetyPopup = document.getElementById('open-safety-popup');
+        const openHelpPopup = document.getElementById('open-help-popup');
+        const prejoinOpenHelp = document.getElementById('prejoin-open-help');
+        const joinVideoButton = document.getElementById('join-video-button');
+        const roomToast = document.getElementById('room-toast');
+        let demoReplyCount = 0;
+        let toastTimer;
+
+        const demoReplies = [
+            'Thanks for saying hello. You are in the right place, and we can all see your message.',
+            'Great question. You can use chat any time if you would rather type than speak.',
+            'Welcome in. The host will guide the group, and you can leave whenever you need to.',
+        ];
+
+        function currentDemoTime() {
+            return new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+        }
+
+        function appendDemoMessage({ name, message, isHost = false, isUser = false, id = '' }) {
+            const wrapper = document.createElement('div');
+            if (id) wrapper.id = id;
+            wrapper.className = isUser ? 'text-right' : '';
+
+            const meta = document.createElement('div');
+            meta.className = `flex items-baseline gap-2 mb-1 ${isUser ? 'justify-end' : ''}`;
+
+            const nameEl = document.createElement('span');
+            nameEl.className = `font-semibold text-lg ${isHost ? 'text-[#0F4C5C]' : 'text-slate-900'}`;
+            nameEl.textContent = name;
+            meta.appendChild(nameEl);
+
+            if (isHost) {
+                const badge = document.createElement('span');
+                badge.className = 'bg-[#0F4C5C]/10 text-[#0F4C5C] text-xs px-2 py-0.5 rounded-full font-medium';
+                badge.textContent = 'Group Host';
+                meta.appendChild(badge);
+            }
+
+            const time = document.createElement('span');
+            time.className = 'text-sm font-medium text-slate-500';
+            time.textContent = currentDemoTime();
+            meta.appendChild(time);
+
+            const bubble = document.createElement('p');
+            bubble.className = isUser
+                ? 'inline-block text-white bg-[#0F4C5C] p-4 rounded-2xl rounded-tr-none text-lg text-left max-w-[90%]'
+                : 'text-slate-700 bg-slate-50 p-4 rounded-2xl rounded-tl-none border border-slate-100 text-lg';
+            bubble.textContent = message;
+
+            wrapper.appendChild(meta);
+            wrapper.appendChild(bubble);
+            demoChatFeed.appendChild(wrapper);
+            demoChatFeed.scrollTop = demoChatFeed.scrollHeight;
+            return wrapper;
+        }
+
+        function sendDemoChat() {
+            const message = demoChatInput.value.trim();
+            if (!message) return;
+
+            appendDemoMessage({ name: 'You', message, isUser: true });
+            demoChatInput.value = '';
+            demoChatSend.disabled = true;
+            demoChatSend.classList.add('opacity-70');
+
+            const typing = appendDemoMessage({ id: 'demo-typing', name: 'Elena P.', message: 'Elena is typing...', isHost: true });
+
+            setTimeout(() => {
+                typing.remove();
+                appendDemoMessage({
+                    name: 'Elena P.',
+                    message: demoReplies[demoReplyCount % demoReplies.length],
+                    isHost: true,
+                });
+                demoReplyCount += 1;
+                demoChatSend.disabled = false;
+                demoChatSend.classList.remove('opacity-70');
+                demoChatInput.focus();
+            }, 900);
+        }
+
+        demoChatSend.addEventListener('click', sendDemoChat);
+        demoChatInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendDemoChat();
+            }
+        });
+
+        document.querySelectorAll('[data-open-room]').forEach((button) => {
+            button.addEventListener('click', () => {
+                sandboxRoomName.textContent = button.dataset.roomName;
+                sandboxRoomTopic.textContent = button.dataset.roomTopic;
+                liveSandbox.classList.remove('hidden');
+                prejoinPopup.classList.remove('hidden');
+                safetyPopup.classList.add('hidden');
+                helpPopup.classList.add('hidden');
+                document.body.classList.add('overflow-hidden');
+                liveSandbox.scrollTop = 0;
+            });
+        });
+
+        function closeLiveSandbox() {
+            liveSandbox.classList.add('hidden');
+            prejoinPopup.classList.add('hidden');
+            safetyPopup.classList.add('hidden');
+            helpPopup.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        function showPopup(popup) {
+            prejoinPopup.classList.add('hidden');
+            safetyPopup.classList.add('hidden');
+            helpPopup.classList.add('hidden');
+            popup.classList.remove('hidden');
+        }
+
+        function hidePopup(popupId) {
+            document.getElementById(popupId).classList.add('hidden');
+            if (popupId === 'prejoin-popup') {
+                setTimeout(() => demoChatInput.focus(), 100);
+            }
+        }
+
+        document.querySelectorAll('[data-dismiss-popup]').forEach((button) => {
+            button.addEventListener('click', () => hidePopup(button.dataset.dismissPopup));
+        });
+
+        openSafetyPopup.addEventListener('click', () => showPopup(safetyPopup));
+        openHelpPopup.addEventListener('click', () => showPopup(helpPopup));
+        prejoinOpenHelp.addEventListener('click', () => showPopup(helpPopup));
+        joinVideoButton.addEventListener('click', () => showPopup(prejoinPopup));
+
+        document.querySelectorAll('[data-room-action]').forEach((button) => {
+            button.addEventListener('click', () => {
+                roomToast.textContent = button.dataset.roomAction;
+                roomToast.classList.remove('hidden');
+                clearTimeout(toastTimer);
+                toastTimer = setTimeout(() => roomToast.classList.add('hidden'), 1600);
+            });
+        });
+
+        closeSandbox.addEventListener('click', closeLiveSandbox);
+        document.addEventListener('keydown', (event) => {
+            if (event.key !== 'Escape' || liveSandbox.classList.contains('hidden')) return;
+
+            if (!helpPopup.classList.contains('hidden')) {
+                helpPopup.classList.add('hidden');
+            } else if (!safetyPopup.classList.contains('hidden')) {
+                safetyPopup.classList.add('hidden');
+            } else if (!prejoinPopup.classList.contains('hidden')) {
+                prejoinPopup.classList.add('hidden');
+            } else {
+                closeLiveSandbox();
+            }
+        });
+    </script>
+
+</body></html>
